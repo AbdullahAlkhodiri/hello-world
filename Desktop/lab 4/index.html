@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab 4</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+    <h1>Great Auto Parts - Order Form</h1>
+    <form>
+
+        <label for="fname">First Name:</label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name" required>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+
+        <label for="pnumber">Phone Number:</label>
+        <input type="number" name="pnumber" id="pnumber" placeholder="Enter your number" required>
+
+        <label for="make">Make:</label>
+        <input type="text" name="make" id="make" placeholder="Make" required>
+
+        <label for="model">Model:</label>
+        <input type="text" name="model" id="model" placeholder="Model" required>
+
+        <label for="year">Year:</label>
+        <input type="number" min="1900" max="2099" step="1" placeholder="Year" required />
+
+        <label for="date">Date:</label>
+        <input type="date" name="date" id="date" required>
+        <label for="spart">Spare Part:</label>
+        <input type="text" name="spart" id="spart" placeholder="Enter spare part you need" required>
+
+        <label for="quantity">Quantity</label>
+        <input type="number" min="1" name="quantity" id="quantity"
+            placeholder="Enter quantity of the spare part you need" required>
+
+        <label for="comment">Comment:</label>
+        <textarea name="comment" id="comment" placeholder="Enter your comment"></textarea>
+        <button type="submit" class="btn">Submit</button>
+
+    </form>
+
+
+
+</body>
+
+</html>
